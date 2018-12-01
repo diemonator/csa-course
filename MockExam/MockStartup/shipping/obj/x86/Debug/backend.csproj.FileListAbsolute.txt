@@ -1,0 +1,10 @@
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 4\manager\manager\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 4\manager\manager\obj\x86\Debug\server.Properties.Resources.resources
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 4\manager\manager\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 4\manager\manager\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 4\manager\manager\obj\x86\Debug\server.exe
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 4\manager\manager\bin\Debug\server.exe.config
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 4\manager\manager\bin\Debug\server.exe
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 4\manager\manager\bin\Debug\server.pdb
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 4\manager\manager\obj\x86\Debug\server.pdb
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 4\manager\manager\obj\x86\Debug\backend.Form1.resources

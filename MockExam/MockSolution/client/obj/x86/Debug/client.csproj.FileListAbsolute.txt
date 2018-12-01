@@ -1,0 +1,58 @@
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 1\client\bin\Debug\client.exe.config
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 2\client\bin\Debug\client.exe.config
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 2\client\bin\Debug\client.exe
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 2\client\bin\Debug\client.pdb
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 2\client\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 2\client\obj\x86\Debug\client.Form1.resources
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 2\client\obj\x86\Debug\client.Properties.Resources.resources
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 2\client\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 2\client\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 2\client\obj\x86\Debug\client.exe
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 2\client\obj\x86\Debug\client.pdb
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 3\client\webshopclient\bin\Debug\client.exe.config
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 3\client\webshopclient\bin\Debug\client.exe
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 3\client\webshopclient\bin\Debug\client.pdb
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 3\client\webshopclient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 3\client\webshopclient\obj\x86\Debug\client.Form1.resources
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 3\client\webshopclient\obj\x86\Debug\client.Properties.Resources.resources
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 3\client\webshopclient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 3\client\webshopclient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 3\client\webshopclient\obj\x86\Debug\client.exe
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 3\client\webshopclient\obj\x86\Debug\client.pdb
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 4\client\webshopclient\bin\Debug\client.exe.config
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 4\client\webshopclient\obj\x86\Debug\client.exe
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 4\client\webshopclient\obj\x86\Debug\client.pdb
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 4\client\webshopclient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 4\client\webshopclient\obj\x86\Debug\client.Form1.resources
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 4\client\webshopclient\obj\x86\Debug\client.Properties.Resources.resources
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 4\client\webshopclient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 4\client\webshopclient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 4\client\webshopclient\bin\Debug\client.exe
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 4\client\webshopclient\bin\Debug\client.pdb
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 4\client\bin\Debug\client.exe.config
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 4\client\bin\Debug\client.exe
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 4\client\bin\Debug\client.pdb
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 4\client\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 4\client\obj\x86\Debug\client.Form1.resources
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 4\client\obj\x86\Debug\client.Properties.Resources.resources
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 4\client\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 4\client\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 4\client\obj\x86\Debug\client.exe
+C:\fontys\12\K3\CSA\Practicals\MyWebshop part 4\client\obj\x86\Debug\client.pdb
+d:\Documents\Dropbox\vakken\CSA\Practical\C# Solution Projects\CSAMockExam\MyWebshop part 4\client\bin\Debug\client.exe.config
+d:\Documents\Dropbox\vakken\CSA\Practical\C# Solution Projects\CSAMockExam\MyWebshop part 4\client\bin\Debug\client.exe
+d:\Documents\Dropbox\vakken\CSA\Practical\C# Solution Projects\CSAMockExam\MyWebshop part 4\client\bin\Debug\client.pdb
+d:\Documents\Dropbox\vakken\CSA\Practical\C# Solution Projects\CSAMockExam\MyWebshop part 4\client\obj\x86\Debug\client.Form1.resources
+d:\Documents\Dropbox\vakken\CSA\Practical\C# Solution Projects\CSAMockExam\MyWebshop part 4\client\obj\x86\Debug\client.Properties.Resources.resources
+d:\Documents\Dropbox\vakken\CSA\Practical\C# Solution Projects\CSAMockExam\MyWebshop part 4\client\obj\x86\Debug\client.csproj.GenerateResource.Cache
+d:\Documents\Dropbox\vakken\CSA\Practical\C# Solution Projects\CSAMockExam\MyWebshop part 4\client\obj\x86\Debug\client.exe
+d:\Documents\Dropbox\vakken\CSA\Practical\C# Solution Projects\CSAMockExam\MyWebshop part 4\client\obj\x86\Debug\client.pdb
+d:\Documents\Dropbox\vakken\CSA\Exam\mock exam\CSAMockExam\CSAMockExam\MockSolution\client\bin\Debug\client.exe.config
+d:\Documents\Dropbox\vakken\CSA\Exam\mock exam\CSAMockExam\CSAMockExam\MockSolution\client\bin\Debug\client.exe
+d:\Documents\Dropbox\vakken\CSA\Exam\mock exam\CSAMockExam\CSAMockExam\MockSolution\client\bin\Debug\client.pdb
+d:\Documents\Dropbox\vakken\CSA\Exam\mock exam\CSAMockExam\CSAMockExam\MockSolution\client\obj\x86\Debug\client.Properties.Resources.resources
+d:\Documents\Dropbox\vakken\CSA\Exam\mock exam\CSAMockExam\CSAMockExam\MockSolution\client\obj\x86\Debug\client.csproj.GenerateResource.Cache
+d:\Documents\Dropbox\vakken\CSA\Exam\mock exam\CSAMockExam\CSAMockExam\MockSolution\client\obj\x86\Debug\client.exe
+d:\Documents\Dropbox\vakken\CSA\Exam\mock exam\CSAMockExam\CSAMockExam\MockSolution\client\obj\x86\Debug\client.pdb
+d:\Documents\Dropbox\vakken\CSA\Exam\mock exam\CSAMockExam\CSAMockExam\MockSolution\client\obj\x86\Debug\client.csprojResolveAssemblyReference.cache
+d:\Documents\Dropbox\vakken\CSA\Exam\mock exam\CSAMockExam\CSAMockExam\MockSolution\client\obj\x86\Debug\client.ClientForm.resources
