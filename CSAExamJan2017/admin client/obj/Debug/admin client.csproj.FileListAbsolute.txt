@@ -33,3 +33,13 @@ D:\Documents\SurfDrive\Documents\vakken\CSA\Exam\exam january 2017\code\OffersSy
 D:\Documents\SurfDrive\Documents\vakken\CSA\Exam\exam january 2017\code\OffersSystem-Startup\admin client\obj\Debug\admin client.csproj.GenerateResource.Cache
 D:\Documents\SurfDrive\Documents\vakken\CSA\Exam\exam january 2017\code\OffersSystem-Startup\admin client\obj\Debug\admin client.exe
 D:\Documents\SurfDrive\Documents\vakken\CSA\Exam\exam january 2017\code\OffersSystem-Startup\admin client\obj\Debug\admin client.pdb
+C:\Users\359591\Desktop\csa-course\CSAExamJan2017\admin client\bin\Debug\admin client.exe.config
+C:\Users\359591\Desktop\csa-course\CSAExamJan2017\admin client\bin\Debug\admin client.exe
+C:\Users\359591\Desktop\csa-course\CSAExamJan2017\admin client\bin\Debug\admin client.pdb
+C:\Users\359591\Desktop\csa-course\CSAExamJan2017\admin client\obj\Debug\admin client.csprojAssemblyReference.cache
+C:\Users\359591\Desktop\csa-course\CSAExamJan2017\admin client\obj\Debug\admin_client.AdminForm.resources
+C:\Users\359591\Desktop\csa-course\CSAExamJan2017\admin client\obj\Debug\admin_client.Properties.Resources.resources
+C:\Users\359591\Desktop\csa-course\CSAExamJan2017\admin client\obj\Debug\admin client.csproj.GenerateResource.cache
+C:\Users\359591\Desktop\csa-course\CSAExamJan2017\admin client\obj\Debug\admin client.csproj.CoreCompileInputs.cache
+C:\Users\359591\Desktop\csa-course\CSAExamJan2017\admin client\obj\Debug\admin client.exe
+C:\Users\359591\Desktop\csa-course\CSAExamJan2017\admin client\obj\Debug\admin client.pdb

@@ -66,6 +66,7 @@
             this.btnGetOffers.TabIndex = 3;
             this.btnGetOffers.Text = "get offers";
             this.btnGetOffers.UseVisualStyleBackColor = true;
+            this.btnGetOffers.Click += new System.EventHandler(this.BtnGetOffers_Click);
             // 
             // AdminForm
             // 

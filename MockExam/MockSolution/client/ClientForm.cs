@@ -22,13 +22,13 @@ namespace client
             proxy = new WebshopClient(context);
             if (proxy != null)
             {
-                showStatus(proxy.GetWebshopName());
-                showProductList(proxy.GetProductList());
+                ShowStatus(proxy.GetWebshopName());
+                ShowProductList(proxy.GetProductList());
                 proxy.RegisterStockUpdate();
             }
         }
 
-        private string formatTime(DateTime t)
+        private string FormatTime(DateTime t)
         {
             string s = t.ToString("HH") + "h";
             s += t.ToString("mm") + "m";
@@ -36,17 +36,17 @@ namespace client
             return s;
         }
 
-        private void showStatus(string message)
+        private void ShowStatus(string message)
         {
             lblNotifications.Text = message;
         }
 
         private void GetWebShopName_Click(object sender, EventArgs e)
         {
-            showStatus(proxy.GetWebshopName());
+            ShowStatus(proxy.GetWebshopName());
         }
 
-        private void showProductList(Item[] items)
+        private void ShowProductList(Item[] items)
         {
             idListBox.Items.Clear();
             priceListBox.Items.Clear();
@@ -62,52 +62,43 @@ namespace client
         private void GetProductList_Click(object sender, EventArgs e)
         {
             Item[] items = proxy.GetProductList();
-            showProductList(items);
+            ShowProductList(items);
         }
 
         private void GetProductInfo_Click(object sender, EventArgs e)
         {
             string name = tbProductName.Text;
             string info = proxy.GetProductInfo(name);
-            if (info != "")
-                showStatus(info);
-            else
-                showStatus("no info on product \"" + name + "\"");            
+            string result;
+            if (info != "") result = info;
+            else result = "no info on product \"" + name + "\"";
+            ShowStatus(result);
         }
 
         private void BuyProduct_Click(object sender, EventArgs e)
         {
+            string result;
             if (idListBox.SelectedItems.Count > 0)
             {
                 string id = idListBox.SelectedItems[0].ToString();
                 bool productBought = proxy.BuyProduct(id);
-                if (productBought)
-                    showStatus("you bought one copy of \"" + id + "\"");
-                else
-                    showStatus("you did not buy a copy of \"" + id + "\"");
+                if (productBought) result = "you bought one copy of \"" + id + "\"";
+                else result = "you did not buy a copy of \"" + id + "\"";
                 Item[] items = proxy.GetProductList();
-                showProductList(items);
+                ShowProductList(items);
             }
-            else
-            {
-                showStatus("please select a product id first");
-            }
+            else result = "please select a product id first";
+            ShowStatus(result);
         }
 
-        public void productShipped(string productId, DateTime shippingMoment)
+        public void ProductShipped(string productId, DateTime shippingMoment)
         {
-            showStatus(productId + " was shipped at " + formatTime(shippingMoment));
+            ShowStatus(productId + " was shipped at " + FormatTime(shippingMoment));
         }
 
-
-        public void updateStock(Item[] products)
+        public void UpdateStock(Item[] products)
         {
-            showProductList(products);
-        }
-
-        private void RegisterBtn_Click(object sender, EventArgs e)
-        {
-            
+            ShowProductList(products);
         }
     }
 }

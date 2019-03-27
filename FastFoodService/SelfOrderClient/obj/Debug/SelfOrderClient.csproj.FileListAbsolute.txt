@@ -1,0 +1,9 @@
+C:\Users\359591\Desktop\csa-course\FastFoodService\SelfOrderClient\bin\Debug\SelfOrderClient.exe.config
+C:\Users\359591\Desktop\csa-course\FastFoodService\SelfOrderClient\bin\Debug\SelfOrderClient.exe
+C:\Users\359591\Desktop\csa-course\FastFoodService\SelfOrderClient\bin\Debug\SelfOrderClient.pdb
+C:\Users\359591\Desktop\csa-course\FastFoodService\SelfOrderClient\obj\Debug\SelfOrderClient.ClientForm.resources
+C:\Users\359591\Desktop\csa-course\FastFoodService\SelfOrderClient\obj\Debug\SelfOrderClient.Properties.Resources.resources
+C:\Users\359591\Desktop\csa-course\FastFoodService\SelfOrderClient\obj\Debug\SelfOrderClient.csproj.GenerateResource.cache
+C:\Users\359591\Desktop\csa-course\FastFoodService\SelfOrderClient\obj\Debug\SelfOrderClient.csproj.CoreCompileInputs.cache
+C:\Users\359591\Desktop\csa-course\FastFoodService\SelfOrderClient\obj\Debug\SelfOrderClient.exe
+C:\Users\359591\Desktop\csa-course\FastFoodService\SelfOrderClient\obj\Debug\SelfOrderClient.pdb

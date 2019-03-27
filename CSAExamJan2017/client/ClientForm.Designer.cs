@@ -37,6 +37,7 @@
             this.btnGetAvailable = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnAskPrice = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
@@ -47,18 +48,19 @@
             // 
             // btnNrOffers
             // 
-            this.btnNrOffers.Location = new System.Drawing.Point(15, 36);
+            this.btnNrOffers.Location = new System.Drawing.Point(155, 36);
             this.btnNrOffers.Name = "btnNrOffers";
-            this.btnNrOffers.Size = new System.Drawing.Size(166, 23);
+            this.btnNrOffers.Size = new System.Drawing.Size(112, 23);
             this.btnNrOffers.TabIndex = 0;
             this.btnNrOffers.Text = "get number of offers";
             this.btnNrOffers.UseVisualStyleBackColor = true;
+            this.btnNrOffers.Click += new System.EventHandler(this.BtnNrOffers_Click);
             // 
             // tbName
             // 
             this.tbName.Location = new System.Drawing.Point(81, 10);
             this.tbName.Name = "tbName";
-            this.tbName.Size = new System.Drawing.Size(100, 20);
+            this.tbName.Size = new System.Drawing.Size(186, 20);
             this.tbName.TabIndex = 1;
             this.tbName.Text = "tbName";
             // 
@@ -78,7 +80,7 @@
             this.lbAvailable.Name = "lbAvailable";
             this.lbAvailable.Size = new System.Drawing.Size(127, 121);
             this.lbAvailable.TabIndex = 4;
-            this.lbAvailable.SelectedIndexChanged += new System.EventHandler(this.lbAvailable_SelectedIndexChanged);
+            this.lbAvailable.SelectedIndexChanged += new System.EventHandler(this.LbAvailable_SelectedIndexChanged);
             // 
             // btnMakeOffer
             // 
@@ -89,6 +91,7 @@
             this.btnMakeOffer.TabIndex = 7;
             this.btnMakeOffer.Text = "offer for ...";
             this.btnMakeOffer.UseVisualStyleBackColor = true;
+            this.btnMakeOffer.Click += new System.EventHandler(this.BtnMakeOffer_Click);
             // 
             // tbOffer
             // 
@@ -106,6 +109,7 @@
             this.btnGetAvailable.TabIndex = 3;
             this.btnGetAvailable.Text = "get available";
             this.btnGetAvailable.UseVisualStyleBackColor = true;
+            this.btnGetAvailable.Click += new System.EventHandler(this.BtnGetAvailable_Click);
             // 
             // label1
             // 
@@ -119,13 +123,24 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.btnAskPrice);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.btnNrOffers);
             this.panel1.Controls.Add(this.tbName);
             this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 70);
+            this.panel1.Size = new System.Drawing.Size(309, 70);
             this.panel1.TabIndex = 10;
+            // 
+            // btnAskPrice
+            // 
+            this.btnAskPrice.Location = new System.Drawing.Point(27, 36);
+            this.btnAskPrice.Name = "btnAskPrice";
+            this.btnAskPrice.Size = new System.Drawing.Size(112, 23);
+            this.btnAskPrice.TabIndex = 3;
+            this.btnAskPrice.Text = "get asking price";
+            this.btnAskPrice.UseVisualStyleBackColor = true;
+            this.btnAskPrice.Click += new System.EventHandler(this.BtnAskPrice_Click);
             // 
             // label2
             // 
@@ -179,6 +194,7 @@
             this.Controls.Add(this.rtbMessages);
             this.Name = "ClientForm";
             this.Text = "Client From";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ClientForm_FormClosing);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -203,6 +219,7 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btnAskPrice;
     }
 }
 

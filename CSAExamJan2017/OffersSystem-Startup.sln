@@ -1,11 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "client", "client\client.csproj", "{FE36BAFB-D9A4-416D-A1C9-0897E70C8200}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AA502884-B5FC-46DC-8CA5-200D106C8779} = {AA502884-B5FC-46DC-8CA5-200D106C8779}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "admin client", "admin client\admin client.csproj", "{6483874B-0330-47CA-ADC9-12F148695BEE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AA502884-B5FC-46DC-8CA5-200D106C8779} = {AA502884-B5FC-46DC-8CA5-200D106C8779}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfService", "WcfService\WcfService.csproj", "{AA502884-B5FC-46DC-8CA5-200D106C8779}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +29,15 @@ Global
 		{6483874B-0330-47CA-ADC9-12F148695BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6483874B-0330-47CA-ADC9-12F148695BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6483874B-0330-47CA-ADC9-12F148695BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA502884-B5FC-46DC-8CA5-200D106C8779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA502884-B5FC-46DC-8CA5-200D106C8779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA502884-B5FC-46DC-8CA5-200D106C8779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA502884-B5FC-46DC-8CA5-200D106C8779}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7EE2F7E-940B-4229-B60C-CE87CC2975ED}
 	EndGlobalSection
 EndGlobal

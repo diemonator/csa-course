@@ -24,3 +24,13 @@ d:\Documents\Dropbox\vakken\CSA\Exam\mock exam\CSAMockExam\CSAMockExam\MockSolut
 d:\Documents\Dropbox\vakken\CSA\Exam\mock exam\CSAMockExam\CSAMockExam\MockSolution\shipping\obj\x86\Debug\backoffice.csproj.GenerateResource.Cache
 d:\Documents\Dropbox\vakken\CSA\Exam\mock exam\CSAMockExam\CSAMockExam\MockSolution\shipping\obj\x86\Debug\server.exe
 d:\Documents\Dropbox\vakken\CSA\Exam\mock exam\CSAMockExam\CSAMockExam\MockSolution\shipping\obj\x86\Debug\server.pdb
+C:\Users\359591\Desktop\csa-course\MockExam\MockSolution\shipping\bin\Debug\server.exe.config
+C:\Users\359591\Desktop\csa-course\MockExam\MockSolution\shipping\bin\Debug\server.exe
+C:\Users\359591\Desktop\csa-course\MockExam\MockSolution\shipping\bin\Debug\server.pdb
+C:\Users\359591\Desktop\csa-course\MockExam\MockSolution\shipping\obj\x86\Debug\backoffice.csprojAssemblyReference.cache
+C:\Users\359591\Desktop\csa-course\MockExam\MockSolution\shipping\obj\x86\Debug\backend.BackendForm.resources
+C:\Users\359591\Desktop\csa-course\MockExam\MockSolution\shipping\obj\x86\Debug\server.Properties.Resources.resources
+C:\Users\359591\Desktop\csa-course\MockExam\MockSolution\shipping\obj\x86\Debug\backoffice.csproj.GenerateResource.cache
+C:\Users\359591\Desktop\csa-course\MockExam\MockSolution\shipping\obj\x86\Debug\backoffice.csproj.CoreCompileInputs.cache
+C:\Users\359591\Desktop\csa-course\MockExam\MockSolution\shipping\obj\x86\Debug\server.exe
+C:\Users\359591\Desktop\csa-course\MockExam\MockSolution\shipping\obj\x86\Debug\server.pdb

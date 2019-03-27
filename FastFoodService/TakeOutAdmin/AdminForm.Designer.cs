@@ -43,7 +43,7 @@
             this.btGetOrders.TabIndex = 0;
             this.btGetOrders.Text = "Get Orders";
             this.btGetOrders.UseVisualStyleBackColor = true;
-            this.btGetOrders.Click += new System.EventHandler(this.btGetOrders_Click);
+            this.btGetOrders.Click += new System.EventHandler(this.BtGetOrders_Click);
             // 
             // lbOrders
             // 
@@ -61,7 +61,7 @@
             this.btReady.TabIndex = 2;
             this.btReady.Text = "Ready";
             this.btReady.UseVisualStyleBackColor = true;
-            this.btReady.Click += new System.EventHandler(this.btDeliver_Click);
+            this.btReady.Click += new System.EventHandler(this.BtDeliver_Click);
             // 
             // label1
             // 
@@ -93,6 +93,7 @@
             this.Controls.Add(this.btGetOrders);
             this.Name = "AdminForm";
             this.Text = "Take Out Admin";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.AdminForm_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

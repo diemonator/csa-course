@@ -58,21 +58,11 @@
       <xs:sequence />
     </xs:complexType>
   </xs:element>
-  <xs:element name="RegisterStockUpdateResponse">
-    <xs:complexType>
-      <xs:sequence />
-    </xs:complexType>
-  </xs:element>
-  <xs:element name="updateStock">
+  <xs:element name="UpdateStock">
     <xs:complexType>
       <xs:sequence>
         <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/server" minOccurs="0" name="products" nillable="true" type="q2:ArrayOfItem" />
       </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-  <xs:element name="updateStockResponse">
-    <xs:complexType>
-      <xs:sequence />
     </xs:complexType>
   </xs:element>
   <xs:element name="GetOrderList">

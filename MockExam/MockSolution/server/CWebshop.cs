@@ -10,27 +10,29 @@ namespace server
     [ServiceBehavior(InstanceContextMode = InstanceContextMode.Single, ConcurrencyMode = ConcurrencyMode.Reentrant)]
     class CWebshop : IWebshop, IBackoffice
     {
-        string Name;
-        List<Item> Stock;
-        List<Order> Orders;
+        private readonly string name;
+        private readonly List<Item> stock;
+        private List<Order> orders;
         private int orderIdGenerator = 1;
 
-        List<IWebshopCallback> clients;
+        private List<IWebshopCallback> clients;
 
-        CWebshop()
+        private CWebshop()
         {
-            Name = "Peter's Bookshop";
-            Stock = new List<Item>();
-            Stock.Add(new Item() { ProductId = "Dracula",     ProductInfo = "Very Scary Story", Price = 10.50, Stock = 5, OnSale = false });
-            Stock.Add(new Item() { ProductId = "Don Quixote", ProductInfo = "Spanish Classic", Price = 15.00, Stock = 9, OnSale = false });
-            Stock.Add(new Item() { ProductId = "Ali Baba",    ProductInfo = "Arab Fairy Tale", Price = 12.50, Stock = 54, OnSale = true });
-            Orders = new List<Order>();
+            name = "Peter's Bookshop";
+            stock = new List<Item>
+            {
+                new Item() { ProductId = "Dracula", ProductInfo = "Very Scary Story", Price = 10.50, Stock = 5, OnSale = false },
+                new Item() { ProductId = "Don Quixote", ProductInfo = "Spanish Classic", Price = 15.00, Stock = 9, OnSale = false },
+                new Item() { ProductId = "Ali Baba", ProductInfo = "Arab Fairy Tale", Price = 12.50, Stock = 54, OnSale = true }
+            };
+            orders = new List<Order>();
             clients = new List<IWebshopCallback>();
         }
 
-        private bool addClient(IWebshopCallback client)
+        private bool AddClient(IWebshopCallback client)
         {
-            if (!clientExists(client))
+            if (!ClientExists(client))
             {
                 clients.Add(client);
                 Console.WriteLine("Added new client!");
@@ -39,7 +41,7 @@ namespace server
             return false;
         }
 
-        private bool clientExists(IWebshopCallback client)
+        private bool ClientExists(IWebshopCallback client)
         {
             bool found = false;
             int counter = 0;
@@ -51,13 +53,13 @@ namespace server
             return found;
         }
 
-        private void showStatus(string message)
+        private void ShowStatus(string message)
         {
             DateTime now = DateTime.Now;
-            Console.WriteLine(formatTime(now) + " : " + message);
+            Console.WriteLine(FormatTime(now) + " : " + message);
         }
 
-        private string formatTime(DateTime t)
+        private string FormatTime(DateTime t)
         {
             string s = t.ToString("HH") + "h";
             s += t.ToString("mm") + "m";
@@ -67,20 +69,20 @@ namespace server
         
         public string GetWebshopName()
         {
-            showStatus("GetWebshopName() was called.");
-            return Name;
+            ShowStatus("GetWebshopName() was called.");
+            return name;
         }
 
         public List<Item> GetProductList()
         {
-            showStatus("GetProductList() was called.");
-            return Stock;
+            ShowStatus("GetProductList() was called.");
+            return stock;
         }
 
         public string GetProductInfo(string productId)
         {
-            showStatus("GetProductInfo(" + productId + ") was called.");
-            foreach (Item item in Stock)
+            ShowStatus("GetProductInfo(" + productId + ") was called.");
+            foreach (Item item in stock)
             {
                 if (item.ProductId == productId) return item.ProductInfo;
             }
@@ -89,8 +91,8 @@ namespace server
 
         public bool BuyProduct(string ProductId)
         {
-            showStatus("BuyProduct(" + ProductId + ") was called.");
-            foreach (Item item in Stock)
+            ShowStatus("BuyProduct(" + ProductId + ") was called.");
+            foreach (Item item in stock)
             {
                 if (item.ProductId == ProductId && item.Stock > 0)
                 {
@@ -98,37 +100,37 @@ namespace server
                     newOrder.OrderId = orderIdGenerator++;
                     newOrder.ProductId = ProductId;
                     newOrder.Moment = DateTime.Now;
-                    Orders.Add(newOrder);
+                    orders.Add(newOrder);
                     item.Stock--;
-                    notifyProductSold(OperationContext.Current.GetCallbackChannel<IWebshopCallback>());
+                    NotifyProductSold(OperationContext.Current.GetCallbackChannel<IWebshopCallback>());
                     return true;
                 }
             }
             return false;
         }
 
-        private void notifyProductSold( IWebshopCallback toClient)
+        private void NotifyProductSold( IWebshopCallback toClient)
         {
             foreach (IWebshopCallback c in clients)
             {
                 if (c != toClient)
                 {
-                    c.updateStock(this.Stock);
+                    c.UpdateStock(this.stock);
                 }
             }
         }
 
         public List<Order> GetOrderList()
         {
-            showStatus("GetOrderList() was called.");
-            return Orders;
+            ShowStatus("GetOrderList() was called.");
+            return orders;
         }
 
 
         public void RegisterStockUpdate()
         {
             IWebshopCallback client = OperationContext.Current.GetCallbackChannel<IWebshopCallback>();
-            addClient(client);
+            AddClient(client);
         }
-         }
+    }
 }

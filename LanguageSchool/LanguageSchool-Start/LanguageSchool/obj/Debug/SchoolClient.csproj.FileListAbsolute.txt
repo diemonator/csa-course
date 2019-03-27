@@ -21,3 +21,13 @@ d:\Documents\Dropbox\vakken\CSA\Exam\exam oktober 2015\courses solution\Language
 d:\temp\CSA mock\LanguageSchool-Start\LanguageSchool\bin\Debug\LanguageSchool.exe.config
 d:\temp\CSA mock\LanguageSchool-Start\LanguageSchool\obj\Debug\LanguageSchool.exe
 d:\temp\CSA mock\LanguageSchool-Start\LanguageSchool\obj\Debug\LanguageSchool.pdb
+C:\Users\359591\Desktop\csa-course\LanguageSchool\LanguageSchool-Start\LanguageSchool\bin\Debug\LanguageSchool.exe.config
+C:\Users\359591\Desktop\csa-course\LanguageSchool\LanguageSchool-Start\LanguageSchool\bin\Debug\LanguageSchool.exe
+C:\Users\359591\Desktop\csa-course\LanguageSchool\LanguageSchool-Start\LanguageSchool\bin\Debug\LanguageSchool.pdb
+C:\Users\359591\Desktop\csa-course\LanguageSchool\LanguageSchool-Start\LanguageSchool\obj\Debug\SchoolClient.csprojAssemblyReference.cache
+C:\Users\359591\Desktop\csa-course\LanguageSchool\LanguageSchool-Start\LanguageSchool\obj\Debug\LanguageSchool.LanguageSchoolForm.resources
+C:\Users\359591\Desktop\csa-course\LanguageSchool\LanguageSchool-Start\LanguageSchool\obj\Debug\LanguageSchool.Properties.Resources.resources
+C:\Users\359591\Desktop\csa-course\LanguageSchool\LanguageSchool-Start\LanguageSchool\obj\Debug\SchoolClient.csproj.GenerateResource.cache
+C:\Users\359591\Desktop\csa-course\LanguageSchool\LanguageSchool-Start\LanguageSchool\obj\Debug\SchoolClient.csproj.CoreCompileInputs.cache
+C:\Users\359591\Desktop\csa-course\LanguageSchool\LanguageSchool-Start\LanguageSchool\obj\Debug\LanguageSchool.exe
+C:\Users\359591\Desktop\csa-course\LanguageSchool\LanguageSchool-Start\LanguageSchool\obj\Debug\LanguageSchool.pdb

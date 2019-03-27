@@ -1,0 +1,10 @@
+C:\Users\359591\Desktop\csa-course\FastFoodService\TakeOutAdmin\bin\Debug\TakeOutAdmin.exe.config
+C:\Users\359591\Desktop\csa-course\FastFoodService\TakeOutAdmin\bin\Debug\TakeOutAdmin.exe
+C:\Users\359591\Desktop\csa-course\FastFoodService\TakeOutAdmin\bin\Debug\TakeOutAdmin.pdb
+C:\Users\359591\Desktop\csa-course\FastFoodService\TakeOutAdmin\obj\Debug\TakeOutAdmin.csprojAssemblyReference.cache
+C:\Users\359591\Desktop\csa-course\FastFoodService\TakeOutAdmin\obj\Debug\TakeOutAdmin.Properties.Resources.resources
+C:\Users\359591\Desktop\csa-course\FastFoodService\TakeOutAdmin\obj\Debug\TakeOutAdmin.AdminForm.resources
+C:\Users\359591\Desktop\csa-course\FastFoodService\TakeOutAdmin\obj\Debug\TakeOutAdmin.csproj.GenerateResource.cache
+C:\Users\359591\Desktop\csa-course\FastFoodService\TakeOutAdmin\obj\Debug\TakeOutAdmin.csproj.CoreCompileInputs.cache
+C:\Users\359591\Desktop\csa-course\FastFoodService\TakeOutAdmin\obj\Debug\TakeOutAdmin.exe
+C:\Users\359591\Desktop\csa-course\FastFoodService\TakeOutAdmin\obj\Debug\TakeOutAdmin.pdb

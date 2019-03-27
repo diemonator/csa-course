@@ -34,3 +34,13 @@ D:\Documents\SurfDrive\Documents\vakken\CSA\Exam\exam january 2017\code\OffersSy
 D:\Documents\SurfDrive\Documents\vakken\CSA\Exam\exam january 2017\code\OffersSystem-Startup\client\obj\Debug\client.csproj.GenerateResource.Cache
 D:\Documents\SurfDrive\Documents\vakken\CSA\Exam\exam january 2017\code\OffersSystem-Startup\client\obj\Debug\RentClient.exe
 D:\Documents\SurfDrive\Documents\vakken\CSA\Exam\exam january 2017\code\OffersSystem-Startup\client\obj\Debug\RentClient.pdb
+C:\Users\359591\Desktop\csa-course\CSAExamJan2017\client\bin\Debug\RentClient.exe.config
+C:\Users\359591\Desktop\csa-course\CSAExamJan2017\client\bin\Debug\RentClient.exe
+C:\Users\359591\Desktop\csa-course\CSAExamJan2017\client\bin\Debug\RentClient.pdb
+C:\Users\359591\Desktop\csa-course\CSAExamJan2017\client\obj\Debug\client.csprojAssemblyReference.cache
+C:\Users\359591\Desktop\csa-course\CSAExamJan2017\client\obj\Debug\RentClient.ClientForm.resources
+C:\Users\359591\Desktop\csa-course\CSAExamJan2017\client\obj\Debug\RentClient.Properties.Resources.resources
+C:\Users\359591\Desktop\csa-course\CSAExamJan2017\client\obj\Debug\client.csproj.GenerateResource.cache
+C:\Users\359591\Desktop\csa-course\CSAExamJan2017\client\obj\Debug\client.csproj.CoreCompileInputs.cache
+C:\Users\359591\Desktop\csa-course\CSAExamJan2017\client\obj\Debug\RentClient.exe
+C:\Users\359591\Desktop\csa-course\CSAExamJan2017\client\obj\Debug\RentClient.pdb

@@ -75,7 +75,7 @@
             this.updateOrdersBtn.TabIndex = 12;
             this.updateOrdersBtn.Text = "update orders";
             this.updateOrdersBtn.UseVisualStyleBackColor = true;
-            this.updateOrdersBtn.Click += new System.EventHandler(this.updateOrdersBtn_Click);
+            this.updateOrdersBtn.Click += new System.EventHandler(this.UpdateOrdersBtn_Click);
             // 
             // label2
             // 

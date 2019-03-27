@@ -14,3 +14,10 @@ d:\Documents\Dropbox\vakken\CSA\Exam\mock exam\CSAMockExam\CSAMockExam\MockSolut
 d:\Documents\Dropbox\vakken\CSA\Exam\mock exam\CSAMockExam\CSAMockExam\MockSolution\server\bin\Debug\server.pdb
 d:\Documents\Dropbox\vakken\CSA\Exam\mock exam\CSAMockExam\CSAMockExam\MockSolution\server\obj\x86\Debug\server.exe
 d:\Documents\Dropbox\vakken\CSA\Exam\mock exam\CSAMockExam\CSAMockExam\MockSolution\server\obj\x86\Debug\server.pdb
+C:\Users\359591\Desktop\csa-course\MockExam\MockSolution\server\bin\Debug\server.exe.config
+C:\Users\359591\Desktop\csa-course\MockExam\MockSolution\server\bin\Debug\server.exe
+C:\Users\359591\Desktop\csa-course\MockExam\MockSolution\server\bin\Debug\server.pdb
+C:\Users\359591\Desktop\csa-course\MockExam\MockSolution\server\obj\x86\Debug\server.csprojAssemblyReference.cache
+C:\Users\359591\Desktop\csa-course\MockExam\MockSolution\server\obj\x86\Debug\server.csproj.CoreCompileInputs.cache
+C:\Users\359591\Desktop\csa-course\MockExam\MockSolution\server\obj\x86\Debug\server.exe
+C:\Users\359591\Desktop\csa-course\MockExam\MockSolution\server\obj\x86\Debug\server.pdb

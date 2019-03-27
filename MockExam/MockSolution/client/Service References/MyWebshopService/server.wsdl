@@ -34,14 +34,8 @@
   <wsdl:message name="IWebshop_RegisterStockUpdate_InputMessage">
     <wsdl:part name="parameters" element="tns:RegisterStockUpdate" />
   </wsdl:message>
-  <wsdl:message name="IWebshop_RegisterStockUpdate_OutputMessage">
-    <wsdl:part name="parameters" element="tns:RegisterStockUpdateResponse" />
-  </wsdl:message>
-  <wsdl:message name="IWebshop_updateStock_OutputCallbackMessage">
-    <wsdl:part name="parameters" element="tns:updateStock" />
-  </wsdl:message>
-  <wsdl:message name="IWebshop_updateStock_InputCallbackMessage">
-    <wsdl:part name="parameters" element="tns:updateStockResponse" />
+  <wsdl:message name="IWebshop_UpdateStock_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:UpdateStock" />
   </wsdl:message>
   <wsdl:message name="IBackoffice_GetOrderList_InputMessage">
     <wsdl:part name="parameters" element="tns:GetOrderList" />
@@ -68,11 +62,9 @@
     </wsdl:operation>
     <wsdl:operation name="RegisterStockUpdate">
       <wsdl:input wsaw:Action="server/IWebshop/RegisterStockUpdate" message="tns:IWebshop_RegisterStockUpdate_InputMessage" />
-      <wsdl:output wsaw:Action="server/IWebshop/RegisterStockUpdateResponse" message="tns:IWebshop_RegisterStockUpdate_OutputMessage" />
     </wsdl:operation>
-    <wsdl:operation name="updateStock">
-      <wsdl:output wsaw:Action="server/IWebshop/updateStock" message="tns:IWebshop_updateStock_OutputCallbackMessage" />
-      <wsdl:input wsaw:Action="server/IWebshop/updateStockResponse" message="tns:IWebshop_updateStock_InputCallbackMessage" />
+    <wsdl:operation name="UpdateStock">
+      <wsdl:output wsaw:Action="server/IWebshop/UpdateStock" message="tns:IWebshop_UpdateStock_OutputCallbackMessage" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:portType name="IBackoffice">

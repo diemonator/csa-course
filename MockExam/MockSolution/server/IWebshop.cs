@@ -39,13 +39,13 @@ namespace server
         [OperationContract]
         bool BuyProduct(string ProductId);
 
-        [OperationContract]
+        [OperationContract(IsOneWay = true)]
         void RegisterStockUpdate();
     }
 
     public interface IWebshopCallback
     {
-        [OperationContract]
-        void updateStock(List<Item> products);
+        [OperationContract(IsOneWay = true)]
+        void UpdateStock(List<Item> products);
     }
 }

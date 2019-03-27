@@ -1,7 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolClient", "LanguageSchool\SchoolClient.csproj", "{CAC6C7D4-0929-4AD0-86B9-F8AB9C96402B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FE78CEC3-B938-4900-A191-41FF906A66FD} = {FE78CEC3-B938-4900-A191-41FF906A66FD}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfService", "WcfService\WcfService.csproj", "{FE78CEC3-B938-4900-A191-41FF906A66FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,8 +20,15 @@ Global
 		{CAC6C7D4-0929-4AD0-86B9-F8AB9C96402B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAC6C7D4-0929-4AD0-86B9-F8AB9C96402B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAC6C7D4-0929-4AD0-86B9-F8AB9C96402B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE78CEC3-B938-4900-A191-41FF906A66FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE78CEC3-B938-4900-A191-41FF906A66FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE78CEC3-B938-4900-A191-41FF906A66FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE78CEC3-B938-4900-A191-41FF906A66FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {154E90CD-5F42-41FA-A4CE-E26FF2811F4D}
 	EndGlobalSection
 EndGlobal

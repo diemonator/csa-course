@@ -1,0 +1,7 @@
+C:\Users\359591\Desktop\csa-course\LanguageSchool\LanguageSchool-Start\WcfService\obj\Debug\WcfService.csprojAssemblyReference.cache
+C:\Users\359591\Desktop\csa-course\LanguageSchool\LanguageSchool-Start\WcfService\obj\Debug\WcfService.csproj.CoreCompileInputs.cache
+C:\Users\359591\Desktop\csa-course\LanguageSchool\LanguageSchool-Start\WcfService\bin\Debug\WcfService.dll.config
+C:\Users\359591\Desktop\csa-course\LanguageSchool\LanguageSchool-Start\WcfService\bin\Debug\WcfService.dll
+C:\Users\359591\Desktop\csa-course\LanguageSchool\LanguageSchool-Start\WcfService\bin\Debug\WcfService.pdb
+C:\Users\359591\Desktop\csa-course\LanguageSchool\LanguageSchool-Start\WcfService\obj\Debug\WcfService.dll
+C:\Users\359591\Desktop\csa-course\LanguageSchool\LanguageSchool-Start\WcfService\obj\Debug\WcfService.pdb

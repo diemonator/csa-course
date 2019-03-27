@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2f80658c-e723-455d-93dd-3674a706ed54" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/wcf/fastfood/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item3.xsd" MetadataType="Schema" ID="7bc42c24-dddc-4e15-8711-c97b8ce743f6" SourceId="1" SourceUrl="http://localhost:8733/wcf/fastfood/?xsd=xsd3" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="50e11904-c3ba-42c2-8e77-6e23e3287af0" SourceId="1" SourceUrl="http://localhost:8733/wcf/fastfood/?xsd=xsd1" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="fb702be6-b1b0-4f6f-9b28-8f7f99763457" SourceId="1" SourceUrl="http://localhost:8733/wcf/fastfood/?xsd=xsd0" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="aa52977b-80e4-4d25-b9a9-7f71815f408a" SourceId="1" SourceUrl="http://localhost:8733/wcf/fastfood/?disco" />
+    <MetadataFile FileName="CFastFood.wsdl" MetadataType="Wsdl" ID="3834413e-4037-4b9b-9a91-61709ea3343d" SourceId="1" SourceUrl="http://localhost:8733/wcf/fastfood/?wsdl" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="05bc34dc-49c1-4d8c-bf02-0134a10d3bdd" SourceId="1" SourceUrl="http://localhost:8733/wcf/fastfood/?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

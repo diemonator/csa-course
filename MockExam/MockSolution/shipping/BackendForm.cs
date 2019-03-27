@@ -21,13 +21,13 @@ namespace backend
             proxy = new BackofficeClient();
         }
 
-        private void updateOrdersBtn_Click(object sender, EventArgs e)
+        private void UpdateOrdersBtn_Click(object sender, EventArgs e)
         {
             Order[] orders = proxy.GetOrderList();
-            showOrders(orders);
+            ShowOrders(orders);
         }
 
-        private void showOrders(Order[] orders)
+        private void ShowOrders(Order[] orders)
         {
             idListBox.Items.Clear();
             dateTimeBox.Items.Clear();
@@ -37,11 +37,11 @@ namespace backend
                 dateTimeBox.Items.Add(formatTime(orders[i].Moment));*/
 
                 idListBox.Items.Add(orders[i].OrderId);
-                dateTimeBox.Items.Add(orders[i].ProductId + " - " + formatTime(orders[i].Moment));
+                dateTimeBox.Items.Add(orders[i].ProductId + " - " + FormatTime(orders[i].Moment));
             }
         }
 
-        private string formatTime(DateTime t)
+        private string FormatTime(DateTime t)
         {
             string s  = t.ToString("HH") + "h";
             s += t.ToString("mm") + "m";
@@ -49,14 +49,14 @@ namespace backend
             return s;
         }
 
-        public void orderArrived(Order order)
+        public void OrderArrived(Order order)
         {
             idListBox.Items.Add(order.OrderId);
-            dateTimeBox.Items.Add(order.ProductId + " - " + formatTime(order.Moment));
+            dateTimeBox.Items.Add(order.ProductId + " - " + FormatTime(order.Moment));
         }
 
 
-        public void orderShipped(Order order)
+        public void OrderShipped(Order order)
         {
             int index = idListBox.Items.IndexOf(order.OrderId);
             if (index >= 0)

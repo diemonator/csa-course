@@ -53,7 +53,7 @@
             this.btGetProducts.TabIndex = 0;
             this.btGetProducts.Text = "Get available products";
             this.btGetProducts.UseVisualStyleBackColor = true;
-            this.btGetProducts.Click += new System.EventHandler(this.btGetProducts_Click);
+            this.btGetProducts.Click += new System.EventHandler(this.BtGetProducts_Click);
             // 
             // label1
             // 
@@ -81,7 +81,7 @@
             this.btGetOrderNo.TabIndex = 8;
             this.btGetOrderNo.Text = "Get order number";
             this.btGetOrderNo.UseVisualStyleBackColor = true;
-            this.btGetOrderNo.Click += new System.EventHandler(this.btGetOrderNo_Click);
+            this.btGetOrderNo.Click += new System.EventHandler(this.BtGetOrderNo_Click);
             // 
             // groupBox1
             // 
@@ -131,6 +131,7 @@
             this.lbProducts.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
             this.lbProducts.Size = new System.Drawing.Size(133, 95);
             this.lbProducts.TabIndex = 12;
+            this.lbProducts.SelectedIndexChanged += new System.EventHandler(this.LbProducts_SelectedIndexChanged);
             // 
             // tbOrderStatus
             // 
@@ -176,7 +177,7 @@
             this.btMakeOrder.TabIndex = 5;
             this.btMakeOrder.Text = "Make an order";
             this.btMakeOrder.UseVisualStyleBackColor = true;
-            this.btMakeOrder.Click += new System.EventHandler(this.btOrder_Click);
+            this.btMakeOrder.Click += new System.EventHandler(this.BtOrder_Click);
             // 
             // ClientForm
             // 

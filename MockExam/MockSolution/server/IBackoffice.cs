@@ -25,6 +25,5 @@ namespace server
     {
         [OperationContract]
         List<Order> GetOrderList();
-
      }
 }
